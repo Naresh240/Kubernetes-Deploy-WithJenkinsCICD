@@ -18,15 +18,15 @@
     sudo service jenkins start
 # Add jenkins user docker group
     usermod -aG docker jenkins
+# Provide sudo permissions for jenkins user
+    vi /etc/sudoers
+  ![image](https://user-images.githubusercontent.com/58024415/96357945-9a944a00-111f-11eb-8a33-e4d1980c4609.png)
 # Restart jenkins
     service jenkins restart
 # EKS Cluster Setup:
   [EKS Cluster Setup](https://github.com/Naresh240/eks-cluster-setup/blob/main/README.md)
 # Add kubectl to default path
     cp ./kubectl /usr/bin
-# Provide sudo permissions for jenkins user
-    vi /etc/sudoers
-  ![image](https://user-images.githubusercontent.com/58024415/96357945-9a944a00-111f-11eb-8a33-e4d1980c4609.png)
 # Goto Jenkins and add plugins
     jenkins --> Manage Jenkins --> Available
     - CloudBees AWS Credentials
