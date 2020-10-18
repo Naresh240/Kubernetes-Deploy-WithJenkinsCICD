@@ -41,5 +41,7 @@
          (accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_configure', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY')
 # Add JenkinsFile Content inside pipeline section
   ![image](https://user-images.githubusercontent.com/58024415/96358045-8a309f00-1120-11eb-93b7-bb21cc82da13.png)
-# Goto Web UI and Check output of application --> Loadbalancer:8080/
+# Goto Web UI and Check output of application
+   http://ad5ab72d8d77042768e8994647f637e1-1324271138.us-east-1.elb.amazonaws.com:8080/
+   
   ![image](https://user-images.githubusercontent.com/58024415/96358112-2f4b7780-1121-11eb-9825-0a9ab99659c1.png)
