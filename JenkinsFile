@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("SCM"){
             steps{
-                git 'https://github.com/Naresh240/RollingUpdate-Rollback-NodejsApp.git'
+                git 'https://github.com/Naresh240/Kubernetes-Deploy-WithJenkinsCICD.git'
             }
         }
         stage("Docker Image"){
