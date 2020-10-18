@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: nodejs-deployment
-        image: naresh240/nodejs-k8s:v1
+        image: naresh240/nodejs-cicd:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
